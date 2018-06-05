@@ -1,7 +1,4 @@
-# Copyright (c) 2013-2014, Ruslan Baratov
-# All rights reserved.
-
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.11.0)
 
 include("cmake/HunterGate.cmake")
 
@@ -15,8 +12,8 @@ include("cmake/HunterGate.cmake")
 # 3. set HUNTER_GATE_* variables
 # 4. include master file: 'include(${HUNTER_SELF}/cmake/Hunter)
 HunterGate(
-    URL "https://github.com/ruslo/hunter/archive/v0.18.12.tar.gz"
-    SHA1 "7e8c74787e08c476484d3e5106524fe7a5a0cc56"
+    URL "https://github.com/Walter1337/hunter/archive/v0.22.3.tar.gz"
+    SHA1 "70a82073d9fb36d5ab95ecd92abe8c426db431cb"
 )
 
 project(gate-usage-example)
